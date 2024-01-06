@@ -8,13 +8,13 @@ body {
 }
 
 .btn-primary {
-   border-radius: 5px;
-   background-color: #fd6e0a; 
-   border: none;
-   color: white;
-   font-size: 20px;
-   font-weight: 700;
-   padding: 18px 30px 15px 30px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 30px 15px 30px;
 }
 
 .section-title {
@@ -43,7 +43,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -52,9 +52,13 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+
 }
 
 
@@ -95,46 +99,47 @@ nav a {
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 25px;
-    
+
 }
 
-.banner-description{
+.banner-description {
     margin-bottom: 30px;
 }
 
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* about section styles */
- .about {
+.about {
     padding: 130px;
     border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px 0;
- }
+}
 
- .about-info-container {
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
- }
+}
 
- .about-info {
+.about-info {
     max-width: 185px;
     max-height: 60px;
- }
+}
 
-.info-title{
+.info-title {
     color: #757575;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
 }
-.info-desceiption{
+
+.info-desceiption {
     text-align: center;
     color: #474747);
     font-size: 20px;
@@ -144,12 +149,12 @@ main{
 
 /* what I do section */
 
-#what-i-do-description{
-   padding: 30px 150px;
+#what-i-do-description {
+    padding: 30px 150px;
 }
 
 
-.skills-container{
+.skills-container {
     display: flex;
     justify-content: space-between;
 }
@@ -165,11 +170,53 @@ main{
 }
 
 .skills-title {
-margin: 20px auto;
+    margin: 20px auto;
 }
 
 .skills-description {
-margin: 0 auto;
-max-width: 201px;
-max-height: 196px;
+    margin: 0 auto;
+    max-width: 201px;
+    max-height: 196px;
+}
+
+
+/* resume section start */
+
+
+.resume-container {
+    display: flex;
+    gap: 100px;
+}
+
+hr {
+    max-width: 500px;
+    position: relative;
+    left: -12px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+/* download container */
+
+.download-container {
+    text-align: center;
+    margin: 50px;
 }
